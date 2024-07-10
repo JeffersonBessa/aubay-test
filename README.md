@@ -13,9 +13,9 @@ To run automated tests, you must execute the command: "npx cypress open" (Runs C
 
 * Prerequisites:
 
-Ensure that Cypress was successfully installed in version 12.x.x or higher, running the command: "npm install -D cypress@12.2.0" (install Cypress as a development dependency of the test project),
-as well as the Faker dependency, running the command: "npm install --save-dev @faker-js/faker".
-Have node.js installed using NPM (Node Package Manager), using the command: "sudo apt install npm".
+- Ensure that Cypress was successfully installed in version 12.x.x or higher, running the command: "npm install -D cypress@12.2.0" (install Cypress as a development dependency of the test project);
+- Install Faker dependency, running the command: "npm install --save-dev @faker-js/faker";
+- Have node.js installed using NPM (Node Package Manager), using the command: "sudo apt install npm".
 
 ### Automated Test Cases Developed
 

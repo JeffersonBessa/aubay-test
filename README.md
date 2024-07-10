@@ -9,9 +9,13 @@ In addition, the Faker library was used to generate random data to fill out form
 
 ### Test Execution
 
-To run automated tests, you must execute the command: "npx cypress open" (Runs Cypress in Interactive Mode) OR "npx cypress run" (Runs Cypress in Headless Mode).
-Obs: Ensure that Cypress was successfully installed in version 12.x.x or higher, running the command: "npm install -D cypress@12.2.0" (install Cypress as a development dependency of the test project),
+To run automated tests, you must execute the command: "npx cypress open" (Runs Cypress in Interactive Mode) OR "npx cypress run" (Runs Cypress in Headless Mode). 
+
+* Prerequisites:
+
+Ensure that Cypress was successfully installed in version 12.x.x or higher, running the command: "npm install -D cypress@12.2.0" (install Cypress as a development dependency of the test project),
 as well as the Faker dependency, running the command: "npm install --save-dev @faker-js/faker".
+Have node.js installed using NPM (Node Package Manager), using the command: "sudo apt install npm".
 
 ### Automated Test Cases Developed
 
